@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap');
+
+/* --
+#6C789E azul escuro
+#96C9DC azul claro
+#292F36 gunmetal
+#F9B9B7 melon
+#FFEAEC branco rosado
+-- */
+
+:root {
+    --font-family: 'Titillium Web', sans-serif;
+    --background-color: #4B60A4;
+    --primary-color: #96C9DC;
+    --secundary-color: #F9B9B7;
+    --text-color: #FFEAEC;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.mensagem {
+    font-size: 2rem;
+    margin-top: 2rem;
+
+}
+
+.box {
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    display: inline-block;
+    font-size: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+span {
+    color: var(--secundary-color);
+}
