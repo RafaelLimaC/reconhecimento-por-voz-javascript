@@ -60,3 +60,21 @@ h3 {
 span {
     color: var(--secundary-color);
 }
+
+.btn-jogar {
+    border-radius: 8px;
+    border: 1px solid var(--text-color);
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    cursor: pointer;
+    box-shadow: var(--secundary-color) 0px 7px 0px;
+}
+
+.btn-jogar:active {
+    box-shadow: var(--secundary-color) 0px 3px 0px;
+    transform: translateY(4px);
+}
